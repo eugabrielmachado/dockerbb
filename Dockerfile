@@ -38,7 +38,7 @@ RUN apt-get install -y vim less
 ENV USER_UID=1000
 ENV USER_GID=1000
 
-ADD https://cloud.gastecnologia.com.br/cef/warsaw/install/GBPCEFwr64.deb /w.deb
+ADD https://cloud.gastecnologia.com.br/bb/downloads/ws/warsaw_setup64.deb /w.deb
 
 RUN mkdir -p /var/run/dbus
 
